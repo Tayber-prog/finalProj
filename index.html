@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lawn Care & Snow Removal Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Lawn & Snow Services</a>
+            <ul class="nav-links">
+              <li><a href="snow.html">Snow Removal</a></li>
+                <li><a href="lawn.html">Lawn Care</a></li>
+                <li><a href="#">Get a Quote</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header>
+        <div class="hero">
+            <h1>Professional Lawn Care & Snow Removal</h1>
+            <p>Keeping your yard green and your driveway clear all year round.</p>
+            <a href="#quote-form" class="cta-btn">Get a Free Quote</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+
+            <!-- Snow Service Card -->
+            <div class="service-card">
+                <img src="images/snow-removal.jpg" alt="Snow Removal">
+                <h3>Snow Removal</h3>
+                <p>Reliable snow clearing for driveways, walkways, and more.</p>
+                <a href="snow.html" class="service-btn">Learn More</a>
+            </div>
+
+            <!-- Lawn Service Card -->
+            <div class="service-card">
+                <img src="images/lawn-care.jpg" alt="Lawn Care">
+                <h3>Lawn Care</h3>
+                <p>Keep your lawn lush and healthy all year long with our care services.</p>
+                <a href="lawn.html" class="service-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Form -->
+    <section id="quote-form" class="quote-form">
+        <h2>Get a Quote</h2>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="service">Service Type</label>
+            <select id="service" name="service" required>
+                <option value="snow">Snow Removal</option>
+                <option value="lawn">Lawn Care</option>
+            </select>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="sqft">Square Footage of Treatment Area</label>
+            <input type="sqft" id="sqft" name="sqft" placeholder="Square Feet" required>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Contact with CTA Button -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us!</p>
+        <a href="contact.html" class="cta-btn">Contact Us Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Lawn & Snow Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
